@@ -1,0 +1,62 @@
+第一步： 全局设置
+
+git config --global user.name "用户名"
+
+git config --global user.email "邮箱"
+
+口令：d73ab6cb81be1fe968acde2f9b57c66a
+
+github:   https://qiaobil:701087zty@github.com/qiaobil/
+
+gitee:     https://qiaobil:701087zty@gitee.com/qiaobil/
+
+第二步：
+
+在你的项目文件夹 鼠标右键点击 git Bash Here
+
+git init //创建空白仓库名(必填）
+ 
+git add .  //获取全部文件（我一般用这个）
+
+git add 123.txt（获取单个文件）
+
+git add css （获取单个文件夹）
+
+git commit -m "update index.html." // 文件描述（必填）
+
+第三步：发送数据到gitee
+
+git remote add origin https://gitee.com/用户名/路径.git
+
+git push -u origin master （master=分支名）//发送数据到gitee
+
+git push -f origin master （master=分支名）//强制发送数据到gitee（慎用）
+
+输入完（git push -u origin master）可能会要求你输入邮箱+密码
+
+
+简易的命令行入门教程:
+Git 全局设置:
+
+git config --global user.name "乔妹"
+git config --global user.email "2030008701@qq.com"
+创建 git 仓库:
+
+mkdir empty-2
+cd empty-2
+git init
+touch README.md
+git add README.md
+git commit -m "first commit"
+git remote add origin https://gitee.com/qiaobil/empty-2.git
+git push -u origin master
+已有仓库?
+
+cd existing_git_repo
+git remote add origin https://github.com/qiaobil/qiaobil.giehub.io.git
+git push -u origin master
+
+
+52.74.223.119
+
+

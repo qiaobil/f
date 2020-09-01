@@ -1,0 +1,36 @@
+全局配置：
+
+git config --global user.name "用户名"
+
+git config --global user.email "邮箱"
+
+~~~
+
+https://用户名:密码@github.com/qiaobil/仓库名.git  ( 如果长期使用某一个仓库可以使用这个不用每次都要提交帐号和密码   
+
+使用方法：.git——config 
+
+打开config 修改 url = https://github.com/用户名/仓库名.git (默认的）
+
+修改成 url = https://用户名:密码@github.com/用户名/仓库名.git ( 然后保存就好了 下次就可以不用再输入帐号密码了，其他的仓库也是一样的)
+
+列式：https://demo:123456789@github.com/demo/test.git
+
+~~~
+
+本地项目推送到github上：
+
+git init （在当前目录下创建一个“ .git  ”的文件）
+
+git add .  //获取全部文件（我一般用这个）
+
+git add 123.txt（获取单个文件）
+
+git add css （获取单个文件夹）
+
+git commit -m "123" // 文件描述（必填）
+
+git remote add origin https://gitee.com/用户名/路径.git
+
+git push -u origin master （master=分支名） 推送项目到github上
+

@@ -1,0 +1,20 @@
+
+
+
+
+
+
+//电脑端视频自动播放
+<iframe src="1.mp4" quality="high" width="100%" height="100&" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"></iframe>
+
+//自动播放背景音乐
+<audio src="http://music.163.com/song/media/outer/url?id=547812462.mp3" preload="meta" loop autoplay id="bgmusic"></audio>
+    <script>
+        function toggleSound() {
+            var music = document.getElementById("bgmusic"); //获取ID  
+            console.log(music);
+            if (music.paused) { //判断是否有声音，如果没有就播放声音
+                music.play();
+            }
+        }
+    </script>

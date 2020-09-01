@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title>乔碧萝殿下</title> 
+</head>
+<body>
+
+  
+<a href="https://www.baidu.com/"><img  src="https://xs1.imd.im/avatar/200715/b__LLgeBC.jpg" width="1343" height="500"></a>
+</by>
+<embed src="http://music.163.com/song/media/outer/url?id=1370748318.mp3"width="0" height="0"></embed>
+
+
+<style>
+    div.img {
+        margin: 5px;
+        border: 1px solid rgb(255, 255, 255);
+        float: left;
+        width: 180px;
+    }
+    
+    div.img:hover {
+        border: 1px solid rgb(255, 255, 255);
+    }
+    
+    div.img img {
+        width: 100%;
+        height: auto;
+    }
+    
+    div.desc {
+        padding: 10px;
+        text-align: center;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="responsive">
+      <div class="img">
+        <a target="_blank" href="https://jiejinghe.com/users/2356471049
+        ">
+          <img src="https://xs1.imd.im/avatar/200715/WWB21lSRM.jpg
+          " alt="图片文本描述" width="300" height="200">
+        </a>
+        <div class="desc">关注一下作者</div>
+      </div>
+    </div>
+     
+    <div class="responsive">
+      <div class="img">
+        <a target="_blank" href="mqq://im/chat?chat_type=wpa&uin=2030008701&version=1&src_type=web
+        ">
+          <img src="https://xs1.imd.im/avatar/200715/koy8-maV1.jpg" alt="图片文本描述" width="300" height="200">
+        </a>
+        <div class="desc">联系作者QQ</div>
+      </div>
+    </div>
+  </by>
+
+    <div class="responsive">
+      <div class="img">
+        <a target="_blank" href="//static.runoob.com/images/demo/demo3.jpg">
+          <img src="https://xs1.imd.im/avatar/200715/yu3n1IQQU.jpg" alt="图片文本描述" width="300" height="200">
+        </a>
+        <div class="desc">快捷指令大全</div>
+      </div>
+    </div>
+     
+    <div class="responsive">
+      <div class="img">
+        <a target="_blank" href="//static.runoob.com/images/demo/demo4.jpg">
+          <img src="https://xs1.imd.im/avatar/200715/i8JKkLoCB.jpg" alt="图片文本描述" width="300" height="200">
+        </a>
+        <div class="desc">小工具箱</div>
+      </div>
+    </div>
+
+    
+</body>
+</html>
